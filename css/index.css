@@ -1,0 +1,86 @@
+/*
+ * 参考案例地址：
+ * http://ent.163.com/special/2015yulephoto_h5/#!/scene-1 
+ * 
+ * CSS3帧动画地址
+ * https://daneden.github.io/animate.css/
+ */
+
+/* 第一页 */
+.page1  {
+	 background: url(../img/背景红丝.png) no-repeat; 
+	background-size: over;
+}
+.page1 img {
+	position: absolute;
+}
+.page1 img:nth-of-type(1) {
+	width: 6.5rem;
+	height:6.5rem;
+	left: 50%;
+	top: 4rem;
+	transform: translateX(-50%);
+}
+.page1 img:nth-of-type(2) {
+	width: 6rem;
+	height:6rem;
+	left:0.5rem;
+	top: 4rem;
+	transform: translateX(-50%);
+}
+.page1 img:nth-of-type(3) {
+	width: 6.66rem;
+	height:1.69rem;
+	left: 0.47rem;
+	top: 2.49rem;
+	transform: translateX(-50%);
+}
+.page1 span{
+	color: yellow;
+	font-size: 1rem;
+	position: absolute;
+	bottom: 1rem;
+	left: 1.68rem;
+}
+.page1 .ruyi{
+	color: yellow;
+	font-size: 1rem;
+	position: absolute;
+	top: 1rem;
+	left: 1.68rem;
+}
+.page2{
+	background: url(../img/回家.png) no-repeat;
+	background-size: over;
+	
+	width: 7.46rem;
+	height: 7.47rem;
+}
+.page2 img:nth-of-type(1){
+	width: 3rem;
+	height: 2rem;
+}
+.page3{
+	background: url(../img/老爷爷.png) no-repeat;
+	background-size: over;
+}
+.page3 img:nth-of-type(1){
+	position: absolute;
+	top: 9rem;
+	left: 1.5rem;
+}
+.page3 img:nth-of-type(2){
+	position: absolute;
+	top: 10.5rem;
+	left:0rem;
+}
+.page4{
+	background: url(../img/贴春联.png) no-repeat;
+}
+.page4 span{
+	position: absolute;
+	color: #b11f0a;
+	font-size: 1rem;
+	top: 0rem;
+	left: 1.65rem;
+}
